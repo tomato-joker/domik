@@ -236,7 +236,7 @@ border-radius: 50% 50% 0 0;
 	text-decoration: none;
 }
 .anchor .line{
-	width: 80%;
+	width: 40px;
 	height: 3px;
 	position: absolute;
 	top: 50%;
@@ -283,9 +283,9 @@ border-radius: 50% 50% 0 0;
 	display: inline;
 }
 .anchor:hover li a:hover {
-	border-bottom: 2px solid orange;}
+	border-bottom: 2px solid orange;
+}
 .anchor:hover .line{
 	display: none;
-	transition-duration: 0.3s;
 }
 
