@@ -33,7 +33,7 @@ body {
 }
 .menu-item:hover {
 padding-bottom: 5px;
-border-bottom: 1px solid aqua;
+border-bottom: 1px solid dodgerblue;
 }
 .adv {
 	display: flex;
@@ -164,3 +164,128 @@ margin-right: 144px;
 border: 5px dotted dodgerblue;
 border-radius: 50% 50% 0 0; 
 }
+.link {
+	color: black;
+	text-decoration: none;
+}
+.link:hover {
+	border-bottom: 1px solid darkorange;
+	padding-bottom: 5px;
+}
+.map-block iframe{
+	width: 740px;
+	height: 400px;
+	border-radius: 35px;
+	box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.2);
+}
+.contact-block {
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 20px; 
+}
+.contact-block .it {
+	margin: 0 20px;
+}
+.contact-block .it .title{
+	text-align: left;
+}
+.contact-block .it:nth-child(2) .title{
+	text-align: right;
+}
+.contact-block .title{
+	color: dodgerblue;
+	margin-top: 0px;
+}
+.logo-new {
+	display: flex;
+	margin-left: 20px;
+}
+.logo-new img {
+	width: 50px;
+	height: 50px;
+	margin: 0 5px;
+}
+.con {
+	display: flex;
+	width: 400px;
+    margin-left: 18%;
+}
+.about {
+	font-size: 1vw;
+}
+.anchor {
+	position: relative;
+	border-radius: 10px; 
+	margin-top: 10px; 
+	width: 50px;
+	height: 50px;
+	background: dodgerblue;
+	margin-left: auto;
+	transition-duration: 0.3s;  
+}
+.anchor li {
+	margin: 15px 5px;
+	display: none;
+	list-style-type: none;
+	color: white;
+	display: inline-block;
+}
+.anchor li a{
+	display: none;
+	color: white;
+	text-decoration: none;
+}
+.anchor .line{
+	width: 80%;
+	height: 3px;
+	position: absolute;
+	top: 50%;
+	margin-top: -1px;
+	left: 50%;
+	margin-left: -20px;
+	background: white;
+	border-radius: 40px; 
+}
+.anchor .line:after {
+	content: "";
+	height: 3px;
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	margin-top: -12px;
+	left: 50%;
+	margin-left: -20px;
+	background: white;
+	border-radius: 40px; 
+}
+.anchor .line:before {
+	content: "";
+	height: 3px;
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	margin-top: 8px;
+	left: 50%;
+	margin-left: -20px;
+	background: white;
+	border-radius: 40px; 
+}
+.anchor:hover {
+	width: 80%;
+	transition-duration: 0.3s;
+	padding: 0 10px;
+}
+.anchor:hover li {
+	display: inline-block;
+	transition-duration: 10s;
+}
+.anchor:hover li a{
+	display: inline;
+}
+.anchor:hover li a:hover {
+	border-bottom: 2px solid orange;}
+.anchor:hover .line{
+	display: none;
+	transition-duration: 0.3s;
+}
+
